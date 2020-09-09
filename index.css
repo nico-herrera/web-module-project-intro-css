@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -40,4 +44,101 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+/* AFTER RESET */
+
+html {
+    font-family: "Roboto Mono";
+}
+
+#pyv {
+    background-color: #FF764E;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: .7rem;
+    margin-right: 10rem;
+    padding: 15px;
+    width: 140px;
+    border-radius: 15%;
+    font-size: large;
+
+}
+
+#learn-park {
+    background-color: #5ED3EB;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10rem;
+    padding: 15px;
+    border-radius: 15%;
+    width: 140px;
+    font-size: large;
+}
+
+#get-involved {
+    background-color: #FFCD69;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 15%;
+    width: 140px;
+    font-size: large;
+}
+
+nav {
+    border: 3px red solid;
+    padding: 10px;
+    text-align: center;
+    height: 5rem;
+}
+
+h1 {
+    font-family: 'Chelsea Market';
+    font-size: 3rem;
+    margin: 10px auto;
+}
+
+#main {
+    background-color: #DDB9A3;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#header {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 1rem 1rem;
+}
+
+#header-container {
+    display: inline-block;
+    
+}
+
+#image-container {
+    width: 60%;
+    float: left;
+}
+
+#header-text {
+    display: inline-block;
+    width: 30%;
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+
+#header-text p {
+    text-align: center;
 }
