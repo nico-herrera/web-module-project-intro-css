@@ -48,9 +48,6 @@ table {
 
 /* AFTER RESET */
 
-body {
-    margin: 0 30px;
-}
 
 html {
     font-family: "Roboto Mono";
@@ -60,10 +57,11 @@ html {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
+    padding: 10px;
+    height: 5rem;
 }
 
-#pyv {
+.pyv {
     background-color: #FF764E;
     color: white;
     text-decoration: none;
@@ -74,7 +72,7 @@ html {
 
 }
 
-#learn-park {
+.learn-park {
     background-color: #5ED3EB;
     color: white;
     text-decoration: none;
@@ -84,21 +82,19 @@ html {
     font-size: large;
 }
 
-#get-involved {
+.get-involved {
     background-color: #FFCD69;
     color: white;
     text-decoration: none;
-    padding: 15px;
     border-radius: 15%;
+    padding: 15px;
     width: 140px;
     font-size: large;
 }
 
 nav {
 
-    padding: 10px;
     text-align: center;
-    height: 5rem;
     margin-bottom: 50px;
 }
 
@@ -113,9 +109,8 @@ h1 {
     color: white;
     padding: 10px 25px;
     font-size: 1.3em;
-    margin-top: 60px;
-    margin-bottom: 20px;
     text-align: center;
+    margin:60px 30px 20px 30px;
 }
 
 footer {
@@ -211,4 +206,24 @@ footer {
     text-align: center;
     width: 29%;
     margin-bottom: 80px;
+}
+
+#footer-container {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+#footer-image-container {
+    background-image: url("./assets/footer_img.jpg");
+    height: 250px;
+    width: 100%;
+    background-position: 0 -90px;
+    background-repeat: no-repeat;
+    margin-bottom: 35px;
+}
+
+.footer-pic {
+    height: 100%;
+    width: 100%;
 }
