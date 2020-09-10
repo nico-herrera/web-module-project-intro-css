@@ -48,6 +48,10 @@ table {
 
 /* AFTER RESET */
 
+body {
+    margin: 0 30px;
+}
+
 html {
     font-family: "Roboto Mono";
 }
@@ -106,6 +110,12 @@ h1 {
 
 #main {
     background-color: #DDB9A3;
+    color: white;
+    padding: 10px 25px;
+    font-size: 1.3em;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 footer {
@@ -157,4 +167,48 @@ footer {
 
 #text > div > h1 {
     margin-bottom: 50px;
+}
+
+#van-campfire-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+#camp-fire {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin: 20px 0;
+}
+
+#camp-fire-text {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    width: 29%;
+}
+
+#van {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin: 20px 0;
+}
+
+#van-text {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    width: 29%;
+    margin-bottom: 80px;
 }
